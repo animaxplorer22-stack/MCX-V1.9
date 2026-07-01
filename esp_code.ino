@@ -1,16 +1,5 @@
 /*
-  ============================================================
-  MICROCORE (MCX) ESP32 MINER v3.0 — FULL MAINNET READY
-  ============================================================
-  Hardware : ESP32 Dev Module (ESP32, ESP32-S2, ESP32-S3, ESP32-C3)
-  IDE      : Arduino IDE 2.x / PlatformIO
-  Libraries:
-    - WebSocketsClient  (Links2004/arduinoWebSockets)
-    - ArduinoJson       (bblanchon/ArduinoJson v6)
-    - EEPROM            (built-in ESP32)
-    - WiFi              (built-in ESP32)
-    - esp_task_wdt      (built-in ESP32)
-    - mbedtls           (built-in ESP32 IDF)
+  
 
   *** FEATURES v3.0 ***
   - ✅ ECDSA secp256k1 signing via mbedtls (real crypto)
