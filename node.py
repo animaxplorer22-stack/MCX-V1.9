@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
-MICROCORE (MCX) NODE v26.1 — COMPLETE REWRITE
-Fixed: AVR miner registration, signature verification, memory leaks, WebSocket stability
+
 """
 
 import asyncio
