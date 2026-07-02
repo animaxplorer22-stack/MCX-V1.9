@@ -1,27 +1,4 @@
-/*
-  
 
-  *** FEATURES v3.0 ***
-  - ✅ ECDSA secp256k1 signing via mbedtls (real crypto)
-  - ✅ djb2 fallback (compatible with node verification)
-  - ✅ Full 10-level system (1,000 MCX per level)
-  - ✅ Uptime tracking with daily reset
-  - ✅ Slashing handling (10% loss, floored at 1 level stake)
-  - ✅ Ban system (5 slashes = 1 hour ban)
-  - ✅ Remote control (start/stop/restart/power_save)
-  - ✅ Auto-reconnect with exponential backoff (capped 5 min)
-  - ✅ Message buffering (up to 16 msgs) when offline
-  - ✅ Transaction history (last 50, circular EEPROM buffer)
-  - ✅ LED status indicators (GPIO 2)
-  - ✅ Hardware watchdog (30 s)
-  - ✅ Power saving (light sleep between pings)
-  - ✅ Board detection (prints chip model)
-  - ✅ EEPROM persistence with checksum + magic + version
-  - ✅ Multi-core support (dual-core ESP32)
-  - ✅ Gossip discovery with peer caching (SPIFFS)
-  - ✅ Full WebSocket event handling
-  ============================================================
-*/
 
 // ─────────────────── LIBRARIES ───────────────────
 #include <WiFi.h>
