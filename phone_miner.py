@@ -1,28 +1,5 @@
 #!/usr/bin/env python3
 """
-MICROCORE (MCX) PHONE MINER v8.0 — MAINNET READY
-Hardware: iPhone (a-shell/iSH) / Android (Termux)
-Full ECDSA secp256k1 | Gossip Discovery | Peer Caching | No DNS Required
-10 Levels (1,000 MCX per level) | Temporary + Permanent Towers
-Remote Control | Uptime Tracking | Slashing Handling | Block Redistribution
-Mobile-optimized | Battery Saver | Background Mode | Push Notifications
-
-*** FEATURES ***
-- ✅ ECDSA secp256k1 signing (real crypto)
-- ✅ djb2 fallback (compatible with AVR/ESP)
-- ✅ 10-level staking system (1,000 MCX per level)
-- ✅ Gossip discovery (no DNS required)
-- ✅ Peer caching (persistent across restarts)
-- ✅ Auto-reconnect with exponential backoff
-- ✅ Uptime tracking with daily reset
-- ✅ Slashing handling (10% loss)
-- ✅ Remote control (start/stop/restart via WebSocket)
-- ✅ Transaction history (SQLite storage)
-- ✅ Mobile-optimized (battery saver, background mode)
-- ✅ Password input works on mobile terminals
-- ✅ iPhone (a-shell/iSH) and Android (Termux) compatible
-
-Run: python phone_miner.py
 """
 
 import json
